@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  /* if we do this then all the margins of all four sides become 0 */
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  /* rem stands for root em means that it is not changed and get first priority, also dynamic 1 rem=16px */
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  /* means that the margin value changed clock-wise*/
+  margin-bottom: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  /* px is not dynamic in natute */
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+p {}
+
+.topcontainer {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middlecontainer {}
+
+.bottom-container {
+  background-color: #66BFBF;
+  height:160px;
+  position:relative;
+}
+
+.bottom-cloud {
+  position: absolute;
+  /*BY DOING THIS THE FLOW OF THE BOTTOM CLOUD IS LEFT FROM THE WEB PAGE AND NOW WE CAN ADJUST ACC TO OUR DESIRE*/
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row{
+  width:50%;
+  margin:100px auto 100px auto;
+  margin-top:100px;
+  margin-bottom:100px;
+  line-height: 2;
+  text-align: left;
+}
+.discription{
+  text-align:left;
+}
+.html-img{
+  width:25%;
+  float:left;
+  margin-right:30px;
+}
+.css-img{
+  width:25%;
+  float:right;
+  margin-left: 30px;
+}
+.profile{
+  margin:auto;
+  margin-top:50px;
+  width: 40%;
+}
+.row{
+  margin-top: 50px;
+}
+
+.skills-img{
+  margin-top:100px;
+  width:15%;
+}
+
+
+p{
+  color:#545454;
+}
+
+.skill-quote{
+  margin-bottom:0;
+}
+
+.skills-button{
+  background-color:  #E4F9F5;
+  height:70px;
+  width:15%;
+  margin:5px auto 100px auto;
+  line-height: 2;
+}
+
+.help-div{
+  margin-top:100px;
+}
+
+.help-class{
+  color:#45b29a;
+  text-align: center;
+}
+
+.feel-free{
+margin-upper:10px;
+}
+
+.contact-me{
+  background-color:  #E4F9F5;
+  height:40px;
+  width:15%;
+  margin:5px auto 100px auto;
+  line-height: 2;
+}
+
+.contact{
+  text-align: center;
+}
+
+.footer-link-linkedin{
+  position: absolute;
+  left:400px;
+  top:80px;
+}
+
+.footer-link-insta{
+  position: absolute;
+  left:500px;
+  top:80px;
+}
+
+.footer-link-website{
+
+  position: absolute;
+  left:600px;
+  top:80px;
+}
+
+.copy{
+  position: absolute;
+  left:370px;
+  bottom:10px;
+}
+/*******************SKILL-PAGE************************* */
+
+.skill-upper-container{
+  margin:0;
+  background-color: #E4F9F5;
+  position: relative;
+}
+
+.upper-container-head{
+  margin:0;
+}
+
+.first-skill-img{
+  margin-top:0px;
+  float:left;
+  width:20%;
+  margin-right:30px;
+}
+
+.first-skill-name{
+  margin:0;
+  text-align: left;
+}
+
+.first-skill{
+  width:50%;
+  margin:100px auto 100px auto;
+  margin-bottom: 150px;
+  line-height: 2;
+  text-align: left;
+}
+
+.second-skill-image{
+  width:25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.third-skill-image{
+  width:25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.forth-skill-image{
+  width:25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.home-page-image{
+  align:left;
+  width:70px;
+  position: absolute;
+  left: 10px;
+  top:10px;
+}
