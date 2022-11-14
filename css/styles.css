@@ -82,7 +82,7 @@ padding:0;
   top: 40px;
 }
 .skill{
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .skill-row {
   width: 50%;
@@ -201,6 +201,9 @@ a:hover {
 }
 
 /*******************SKILL-PAGE************************* */
+.skills-img{
+  margin-top:10px;
+}
 .skill-upper-container {
   margin: 0;
   background-color: #E4F9F5;
@@ -268,7 +271,7 @@ padding: 30px 30px 30px 30px;
   width:50%;
   margin:auto;
   text-align: center;
-  margin-bottom:50px;
+  margin-bottom: 80px;
 }
 
 .education-img{
@@ -280,6 +283,9 @@ padding: 30px 30px 30px 30px;
   text-align: center;
   padding:3% 2%;
 }
+.carousel-inner{
+  padding:0 100px 0 100px;
+}
 
 .master-img{
   width:25%;
@@ -287,12 +293,19 @@ padding: 30px 30px 30px 30px;
 }
 
 .edu-p{
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
+.edu-pr{
+  color:black;
+  margin-bottom: 0px;
+  font-family: "Montserrat-bold";
+  font-size: 1.3rem;
+}
 .edu-cou{
-  background-color: #66BFBF;
+  background-color: #E4F9F5;
   margin-top: 50px;
+  color:black;
 }
 
 .carousel-item{
@@ -300,9 +313,51 @@ padding: 30px 30px 30px 30px;
 
 }
 
+
+.ind-btn{
+  color: black;
+}
+
+.but{
+  color:black;
+}
 .slide-btn{
 
   color:#545454;
+  }
+
+  /* PROJECT */
+
+  .project{
+    width:50%;
+    margin:auto;
+  }
+
+  .project-img {
+    width: 45%;
+  }
+  .card{
+  }
+
+  #project{
+    width:50%;
+    text-align: center;
+    margin:auto;
+
+  }
+
+  .project-colomn{
+    padding: 3% 2%;
+  }
+
+  /* WORK EXPERIENCE */
+
+  .work-exp{
+    width:50%;
+    margin:auto;
+  }
+  .work-exp-img{
+    width:25%;
   }
 /* BUTTON CODE */
 .btn {
@@ -333,7 +388,5 @@ padding: 30px 30px 30px 30px;
 }
 
 @media (max-width:1122px){ /* means that when size is lesser then 992 then the code inside it is apply */
-  #education-div{
-    text-align: center;
-  }
+
 }
