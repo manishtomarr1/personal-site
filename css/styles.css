@@ -268,6 +268,7 @@ padding: 30px 30px 30px 30px;
   width:50%;
   margin:auto;
   text-align: center;
+  margin-bottom:50px;
 }
 
 .education-img{
@@ -291,7 +292,7 @@ padding: 30px 30px 30px 30px;
 
 .edu-cou{
   background-color: #66BFBF;
-
+  margin-top: 50px;
 }
 
 .carousel-item{
@@ -299,9 +300,6 @@ padding: 30px 30px 30px 30px;
 
 }
 
-.but{
-  color:black;
-}
 .slide-btn{
 
   color:#545454;
