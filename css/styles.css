@@ -21,6 +21,7 @@ h2 {
   /* px is not dynamic in natute */
   color: #66BFBF;
   font-weight: normal;
+  margin-top:20px;
 }
 
 h3 {
@@ -31,6 +32,27 @@ h3 {
 
 p {
   margin-bottom: 50px;
+}
+
+/* NAVBAR */
+.profile-nav{
+  width: 10%;
+}
+
+.container-fluid{
+  background-color: #E4F9F5;
+  position: relative;
+  margin:0;
+}
+
+.navbar{
+padding:0;
+
+}
+
+.nav-link{
+  color: #11999E;
+
 }
 
 .topcontainer {
@@ -59,7 +81,9 @@ p {
   right: 300px;
   top: 40px;
 }
-
+.skill{
+  margin-top: 50px;
+}
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
@@ -109,7 +133,8 @@ p {
 }
 
 .skill-quote {
-  margin-bottom: 50;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .skills-button {
@@ -127,10 +152,11 @@ p {
 .help-class {
   color: #45b29a;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .feel-free {
-  margin-upper: 10px;
+  margin-upper: 50px;
 }
 
 .contact-me {}
@@ -154,11 +180,13 @@ hr {
   border-color: grey;
   border-width: 5px;
   width: 15%;
+  margin:auto;
 }
 
 .skill-hr {
   width: 6%;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 a {
@@ -177,6 +205,7 @@ a:hover {
   margin: 0;
   background-color: #E4F9F5;
   position: relative;
+padding: 30px 30px 30px 30px;
 }
 
 .upper-container-head {
@@ -230,8 +259,53 @@ a:hover {
 
 .many-more {
   background-color: #E4F9F5;
+  padding:30px;
 }
 
+/* EDUCATION */
+
+.education{
+  width:50%;
+  margin:auto;
+  text-align: center;
+}
+
+.education-img{
+  width: 25%;
+  margin-top:60px;
+}
+
+.edu-col{
+  text-align: center;
+  padding:3% 2%;
+}
+
+.master-img{
+  width:25%;
+
+}
+
+.edu-p{
+  margin-bottom: 0px;
+}
+
+.edu-cou{
+  background-color: #66BFBF;
+
+}
+
+.carousel-item{
+  padding:7% 15%;
+
+}
+
+.but{
+  color:black;
+}
+.slide-btn{
+
+  color:#545454;
+  }
 /* BUTTON CODE */
 .btn {
   background: #11CDD4;
@@ -258,4 +332,10 @@ a:hover {
   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
   background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
   text-decoration: none;
+}
+
+@media (max-width:1122px){ /* means that when size is lesser then 992 then the code inside it is apply */
+  #education-div{
+    text-align: center;
+  }
 }
