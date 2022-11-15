@@ -334,20 +334,23 @@ padding: 30px 30px 30px 30px;
   }
 
   .project-img {
-    width: 45%;
+    width:15%;
   }
   .card{
   }
 
   #project{
-    width:50%;
     text-align: center;
-    margin:auto;
-
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .project-colomn-1{
+text-align: center;
   }
 
-  .project-colomn{
-    padding: 3% 2%;
+  .project-colomn-2{
+  text-align: center;
   }
 
   /* WORK EXPERIENCE */
