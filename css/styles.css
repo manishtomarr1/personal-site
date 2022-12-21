@@ -48,6 +48,12 @@ p {
 }
 
 /* NAVBAR */
+.container-fluid{
+  padding-left: 0;
+}
+.navbar-brand{
+  margin-left: 0;
+}
 .profile-nav{
   width: 20%;
 display:block;
@@ -285,7 +291,16 @@ padding: 30px 30px 30px 30px;
   width:50%;
   margin:auto;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
+}
+
+.skill-hr-edu{
+  width: 6%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.pera{
+  margin-bottom: 20PX;
 }
 
 .education-img{
@@ -317,9 +332,14 @@ padding: 30px 30px 30px 30px;
   font-size: 1.3rem;
 }
 .edu-cou{
-  background-color: #E4F9F5;
-  margin-top: 50px;
+  margin-top: 35px;
   color:black;
+}
+
+.pro-cou{
+
+  margin-top: 20px;
+
 }
 
 .carousel-item{
@@ -345,15 +365,19 @@ padding: 30px 30px 30px 30px;
   .project{
     width:50%;
     margin:auto;
+    text-align: center;
+    margin-bottom: 80px;
   }
 
   .project-img {
-    width:15%;
+    width:28%;
   }
   .tindog{
     margin-top: 25px;
   }
-
+.pro-head{
+  margin-bottom: 10px;
+}
   #project{
     text-align: center;
     padding: 100px;
@@ -368,6 +392,9 @@ text-align: center;
   text-align: center;
   }
 
+.card{
+  margin-bottom: 20px;
+}
   /* WORK EXPERIENCE */
 
   .work-exp{
