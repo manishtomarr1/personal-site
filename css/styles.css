@@ -1,4 +1,5 @@
 body {
+
   margin: 0;
   /* if we do this then all the margins of all four sides become 0 */
   text-align: center;
@@ -59,6 +60,10 @@ p {
 display:block;
 }
 
+.profile-img{
+  width: 25%;
+}
+
 .container-fluid{
   background-color: #E4F9F5;
   position: relative;
@@ -81,7 +86,11 @@ padding:0;
   position: relative;
 }
 
-.middlecontainer {}
+.middle-container {
+  width: 100%;
+  text-align: center;
+   margin-left: 0;
+}
 
 .bottom-container {
   background-color: #66BFBF;
@@ -131,7 +140,7 @@ padding:0;
 .profile {
   margin: auto;
   margin-top: 50px;
-  width: 40%;
+  width: 65%;
 }
 
 .row {
@@ -141,6 +150,11 @@ padding:0;
 .skills-img {
   margin-top: 50px;
   width: 15%;
+}
+
+#skills{
+  width: 100%;
+  margin:auto;
 }
 
 p {
@@ -167,6 +181,8 @@ p {
 
 .help-div {
   margin-top: 50px;
+  width: 65%;
+  margin:auto;
 }
 
 .help-class {
@@ -248,26 +264,26 @@ padding: 30px 30px 30px 30px;
 }
 
 .first-skill {
-  width: 50%;
+  width: 65%;
   margin: 50px auto 100px auto;
   line-height: 2;
   text-align: left;
 }
 
 .second-skill-image {
-  width: 25%;
+  width: 20%;
   float: left;
   margin-right: 30px;
 }
 
 .third-skill-image {
-  width: 25%;
+  width: 20%;
   float: left;
   margin-right: 30px;
 }
 
 .forth-skill-image {
-  width: 25%;
+  width: 20%;
   float: left;
   margin-right: 30px;
 }
@@ -288,7 +304,7 @@ padding: 30px 30px 30px 30px;
 /* EDUCATION */
 
 .education{
-  width:50%;
+  width:85%;
   margin:auto;
   text-align: center;
   margin-bottom: 50px;
@@ -304,7 +320,7 @@ padding: 30px 30px 30px 30px;
 }
 
 .education-img{
-  width: 25%;
+  width: 18%;
   margin-top:60px;
 }
 
@@ -334,6 +350,7 @@ padding: 30px 30px 30px 30px;
 .edu-cou{
   margin-top: 35px;
   color:black;
+
 }
 
 .pro-cou{
@@ -363,14 +380,14 @@ padding: 30px 30px 30px 30px;
   /* PROJECT */
 
   .project{
-    width:50%;
+    width:65%;
     margin:auto;
     text-align: center;
     margin-bottom: 80px;
   }
 
   .project-img {
-    width:28%;
+    width:20%;
   }
   .tindog{
     margin-top: 25px;
@@ -398,7 +415,7 @@ text-align: center;
   /* WORK EXPERIENCE */
 
   .work-exp{
-    width:50%;
+    width:65%;
     margin:auto;
   }
   .work-exp-img{
@@ -434,4 +451,12 @@ text-align: center;
 
 @media (max-width:1122px){ /* means that when size is lesser then 992 then the code inside it is apply */
 
+}
+
+
+/* newsletter */
+.newsletter{
+  width: 50%;
+  text-align: center;
+  margin: auto;
 }
